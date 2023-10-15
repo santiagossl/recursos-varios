@@ -2,5 +2,14 @@ este es mi pirmer cambio
 verdad
 
 cambio dos
+<<<<<<< HEAD
 cambio en main antes despues de stash en  rama2
 Master: esto le faltó poner en la rama2 para actualizar y crear temporal.txt
+=======
+cambio tres: lo hago en mi pc local
+cambio 4 : lo hago en la rama2, antes de cambiarme a la rama master local
+cambio 5 en la rama2 lo escribo , la master tenia cambio 4
+cambio 6 . sigo en rama2
+
+cambio7 rama2
+>>>>>>> 22c85670b09e4f9f6b11c1fede2a7e711dd300c5
