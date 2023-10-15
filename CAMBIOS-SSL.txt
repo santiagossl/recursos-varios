@@ -12,4 +12,5 @@ cambio 5 en la rama2 lo escribo , la master tenia cambio 4
 cambio 6 . sigo en rama2
 
 cambio7 rama2
-
+cambio8. desde rama2
+cambio9 desde master
