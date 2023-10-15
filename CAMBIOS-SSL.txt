@@ -3,3 +3,4 @@ verdad
 
 cambio dos
 cambio en main antes despues de stash en  rama2
+Master: esto le faltó poner en la rama2 para actualizar y crear temporal.txt
