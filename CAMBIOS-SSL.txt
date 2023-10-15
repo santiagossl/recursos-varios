@@ -2,3 +2,4 @@ este es mi pirmer cambio
 verdad
 
 cambio dos
+cambio en main antes despues de stash en  rama2

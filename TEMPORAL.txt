@@ -1,0 +1,2 @@
+ES TEMPORAL CREADO EN LA RAMA2
+cambio en master después de stash en rama2 arch temporal
