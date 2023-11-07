@@ -1,0 +1,26 @@
+La carperta se llama Models o modelo como gustes
+--Para solo crear las tablas que necesito y no toda la base de datos
+Scaffold-DbContext "Server=SANTIAGO\SANTISQL;Database=DBAPI;User Id=sa;Password=123;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Modelo2 -Context Modelo2 -Tables Categoria
+
+--para crear toda la base de datos, en general
+ Scaffold-DbContext "Server=SANTIAGO\SANTISQL;Database=DBAPI;User Id=sa;Password=123;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+se debe de crear la cadena de conesxion en el appsetting.json copiada de dbapicontext, luego se borra de ahi
+la conexion inicial que se hace
+
+luego se configura el dbcontext en el program.cs inicial main,hacer using de entityframe y de miwebapi.models
+se debe de agregar un contexto de bd, arriba de builder.build que es el principal
+
+builder.Services.AddDbContext<DbapiContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("cadenaSQL")));
+se debe de revisar los nombres de la las claves foraneas , cambiar los nombres a objetos ej.oCategoria
+
+
+se debe de hacer el controlador donde se van a ubicar todas nuestras appis
+carpeta controller clic derecho /agregar controlador, sesion api y seleccionar controlador en blanco. se agrega y luego
+se le cambia el nombre al más apropiado. Ej ProductoController.cs
+También se debe de agregar las referencias de entityframework y models del api.
+
+se debe de declarar un objeto de dbcontext
+
+
